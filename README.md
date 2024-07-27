@@ -1,3 +1,5 @@
+This is an AI Chabot made using Gemini API used to schedule Appointments where the user can select some pre defined prompts or can type their own message as per the requirements
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
