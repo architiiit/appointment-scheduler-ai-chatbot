@@ -131,14 +131,14 @@ export default function Home() {
         <h1 className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-center py-3 font-bold text-5xl">Appointment Scheduler</h1>
         <h1 className="text-center bg-purple-900 text-[30px]">Select a Prompt</h1>
         <div className="flex flex-wrap mt-5 mx-auto gap-2 p-2 w-full justify-center items-center">
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler1}>Schedule an appointment</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler2}>What is the Format of Appointment?</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler3}>How to Schedule an appointment?</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler4}>Show me the list Of Appointments</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler5}>Show the Appointment with Higher Priority</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler6}>Delete an Appointment</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler7}>Show the last Appointment</button>
-          <button className="w-[47%] h-10 bg-purple-900 rounded-md" onClick={clickHandler8}>Remove all Appointments</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler1}>Schedule an appointment</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler2}>What is the Format of Appointment?</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler3}>How to Schedule an appointment?</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler4}>Show me the list Of Appointments</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler5}>Show the Appointment with Higher Priority</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler6}>Delete an Appointment</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler7}>Show the last Appointment</button>
+          <button className="w-[47%] h-12 bg-purple-900 rounded-md hover:bg-purple-700 transition-all duration-1000" onClick={clickHandler8}>Remove all Appointments</button>
         </div>
         <div className="flex-grow p-6">
           <div className="flex flex-col space-y-4">
